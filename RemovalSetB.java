@@ -46,7 +46,7 @@ public class RemovalSetB {
         //user input
         System.out.print("Enter how many rows: ");
         int n= scanner.nextInt();
-        //it has a DECREASING space, and SQUARE/RECTANGLE patterns. for sq/rec patterns just reuse d outer loop.
+        //inner loop: it has a DECREASING space, and SQUARE/RECTANGLE patterns. for sq/rec patterns just reuse d outer loop.
         //outer loop
         for (int i=1; i<=n; i++){
             //decreasing space pattern
@@ -109,3 +109,4 @@ public class RemovalSetB {
         }
     }
 }
+
