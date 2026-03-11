@@ -81,8 +81,8 @@ public class RemovalSetB {
     //Problem 3: Repeated Number Triangle
     static void problemThree(Scanner scanner){
         int n=9;
-        //we need to reverse the numbers alongside reversing the triangle as well
         /*
+        we need to reverse the numbers alongside reversing the triangle as well
         so we will manipulate the outer loop and inner loops as well(reversing their initialization, condition, update)
         instead of outer loop: 1; user input(n) we did n; 1
         and instead of DECREASING pattern of numbers we used INCREASING pattern of numbers
@@ -109,5 +109,6 @@ public class RemovalSetB {
         }
     }
 }
+
 
 
