@@ -26,7 +26,7 @@ public class RemovalSetB {
                     System.out.println("GOOD LUCK ON YOUR EXAM!");
                     break;
                 default :
-                    System.out.println("Only choose numbers from 1-5 and 6 to exit");
+                    System.out.println("Only choose numbers from 1-4 and 5 to exit");
             }
         }while(choice!=5);
         scanner.close();
@@ -109,6 +109,7 @@ public class RemovalSetB {
         }
     }
 }
+
 
 
 
