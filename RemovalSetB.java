@@ -42,7 +42,7 @@ public class RemovalSetB {
     DON'T MEMORIZE SYNTAX; FIND PATTERNS, AND UNDERSTAND IT.
      */
     //Problem 1: Left-Shifted Star Pattern
-    static void problemOne(Scanner scanner){
+    private static void problemOne(Scanner scanner){
         //user input
         System.out.print("Enter how many rows: ");
         int n= scanner.nextInt();
@@ -61,7 +61,7 @@ public class RemovalSetB {
         }
     }
     //Problem 2: Increasing Star Pattern with shift
-    static void problemTwo(Scanner scanner){
+    private static void problemTwo(Scanner scanner){
         //user input
         System.out.print("Enter how many rows: ");
         int n= scanner.nextInt();
@@ -79,7 +79,7 @@ public class RemovalSetB {
         }
     }
     //Problem 3: Repeated Number Triangle
-    static void problemThree(Scanner scanner){
+    private static void problemThree(Scanner scanner){
         int n=9;
         /*
         we need to reverse the numbers alongside reversing the triangle as well
@@ -95,7 +95,7 @@ public class RemovalSetB {
         }
     }
     //Problem 4: Number Series(Fibonacci Sequence)
-    static void problemFour(Scanner scanner){
+    private static void problemFour(Scanner scanner){
         int n=15;
         int first=0, second=1;
         for (int i=1; i<=n; i++){
