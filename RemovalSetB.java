@@ -52,10 +52,10 @@ public class RemovalSetB {
     private static void problemThree(Scanner scanner){
         int n=9;
         /*
-        we need to reverse the numbers alongside reversing the triangle as well
-        so we will manipulate the outer loop and inner loops as well(reversing their initialization, condition, update)
-        instead of outer loop: 1; user input(n) we did n; 1
-        and instead of DECREASING pattern of numbers we used INCREASING pattern of numbers
+        we need to reverse the numbers while also reversing the triangle.
+        so, we will manipulate both the outer loop and the inner loop (by reversing their initialization, condition, and update).
+        instead of using the outer loop from 1 to the user input (n), we use n down to 1.
+        and instead of using a decreasing pattern of numbers, we use an increasing pattern.
          */
         for (int i=n; i>=1; i--){
             for (int j=1; j<=i; j++){
